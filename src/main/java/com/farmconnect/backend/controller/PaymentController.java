@@ -8,7 +8,7 @@ import com.farmconnect.backend.service.PaymentService;
 
 @RestController
 @RequestMapping("/payment")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class PaymentController {
 
     @Autowired

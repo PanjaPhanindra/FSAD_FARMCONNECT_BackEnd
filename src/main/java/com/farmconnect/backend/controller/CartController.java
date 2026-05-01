@@ -10,7 +10,7 @@ import com.farmconnect.backend.service.CartService;
 
 @RestController
 @RequestMapping("/cart")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class CartController {
 
     @Autowired

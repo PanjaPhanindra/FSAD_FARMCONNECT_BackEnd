@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/contact")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5178"})
+@CrossOrigin(origins = "*")
 public class ContactController {
 
     @Autowired
